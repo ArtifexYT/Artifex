@@ -219,6 +219,6 @@ client.on("message", async (message) => {
 
         return message.channel.send("Successfully posted your suggestion, please check your Direct Messages for details.");
     }
-
-    // Finish commands below this line.
 });
+
+client.login(settings.token);
