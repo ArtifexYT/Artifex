@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (request, response) => {
-    console.log(`[${Date.now().toLocaleString("en-us")}] Server has responded with the status code of 200.`);
+    console.log(`[${Date.now()}] Server has responded with the status code of 200.`);
     response.sendStatus(200);
 });
 
