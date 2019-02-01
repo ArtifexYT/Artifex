@@ -1,0 +1,32 @@
+{
+    "name": "artifex",
+    "version": "4.5.0",
+    "description": "Artifex is the official bot that manages the Artifex Kingdom Discord server.",
+    "main": "index.js",
+    "scripts": {
+        "test": "node index.js",
+        "start": "node index.js"
+    },
+    "author": "Artifex Dev Team",
+    "contributors": [
+        "FrostyDonuts",
+        "Kian"
+    ],
+    "dependencies": {
+        "discord.js": "^11.4.2",
+        "express": "^4.16.4",
+        "enmap": "^4.7.0",
+        "http": "^0.0.0",
+        "eris": "^0.9.0",
+        "fs-nextra": "^0.3.8",
+        "snekfetch": "^4.0.4",
+        "util": "^0.11.1",
+        "dotenv": "^6.2.0",
+        "moment": "^2.24.0",
+        "moment-duration-format": "^2.2.2"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": "8.4.0"
+    }
+}
